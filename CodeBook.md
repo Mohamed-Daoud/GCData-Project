@@ -6,22 +6,35 @@ The input data is collected from three main sources of the project files
 * X_train.txt having training data holding all the reading types for various signals and the file holds no header
 * features.txt having all the reading names with all combinations of reading types/Signals corresponding to columns names in X_test and X_train files (i.e. the header of those files)
 
-==========================================================================
 
 ### Output data files
 The output data files are the following
 * tidyData.csv representing the merged data from the three data sources above
 * tidyDataAverage.csv representing the average of all variables categorized by test and train data
 
-## Output files details
 ### tidyData.csv
 561 Columns represeted in the features.txt file + 1 more column to distinguish between test and train data
+* 1-tBodyAcc-mean()-X
+* 2-tBodyAcc-mean()-Y
+* 3-tBodyAcc-mean()-Z
+* 4-tBodyAcc-std()-X
+* 5-tBodyAcc-std()-Y
+* 6-tBodyAcc-std()-Z
+* 7-tBodyAcc-mad()-X
+* .................................
+* 556-angle(tBodyAccJerkMean),gravityMean)
+* 557-angle(tBodyGyroMean,gravityMean)
+* 558-angle(tBodyGyroJerkMean,gravityMean)
+* 559-angle(X,gravityMean)
+* 560-angle(Y,gravityMean)
+* 561-angle(Z,gravityMean)
+* 562-Data.Type [value of 1 for test data and 2 for train data]
 
 ### tidyDataAverage.csv
 the output has three Columns
-* Variable: showing measurement type which is averaged
-* TestDataAverage: showing the average of the measurement for all the test data
-* TrainDataAverage: showing the average  of the measurement for all the train data
+* 1-Variable [showing measurement type which is averaged]
+* 2-TestDataAverage [showing the average of the measurement for all the test data]
+* 3-TrainDataAverage [showing the average  of the measurement for all the train data]
 
 ### How to reproduce the output
 * 1. Unzip the project file
