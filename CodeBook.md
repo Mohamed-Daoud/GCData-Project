@@ -1,13 +1,13 @@
-## Human Activity Recognition
+# Human Activity Recognition
 
-### Input data files
+## Input data files
 The input data is collected from three main sources of the project files
 * X_test.txt having test data holding all the reading types (e.g. the mean & standard deviatiouns) for various signals (e.g. tBodyAcc) the file holds no header
 * X_train.txt having training data holding all the reading types for various signals and the file holds no header
 * features.txt having all the reading names with all combinations of reading types/Signals corresponding to columns names in X_test and X_train files (i.e. the header of those files)
 
 
-### Output data files
+## Output data files
 The output data files are the following
 * tidyData.csv representing the merged data from the three data sources above
 * tidyDataAverage.csv representing the average of all variables categorized by test and train data
@@ -38,7 +38,7 @@ The output file has three Columns
 
 The file has been structured in this manner to allow for test and train data comparison and in case an average for both is required, it would be fairly easy to be produced
 
-### How to reproduce the output
+## How to reproduce the output
 * 1. Unzip the project file
 * 2. Run the script run_analysis.R from the same level where "UCI HAR Dataset" directory is located
 * 3. The two files mentioned above should be produced (i.e. tidyData.csv and tidyDataAverage.csv)
