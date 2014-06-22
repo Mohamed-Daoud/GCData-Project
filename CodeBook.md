@@ -24,5 +24,10 @@ TestDataAverage
 TrainDataAverage
   showing the average  of the measurement for all the train data
 
+How to reproduce the output
+1. Unzip the project file
+2. Run the script run_analysis.R from the same level where "UCI HAR Dataset" directory is located
+3. The two files mentioned above should be produced (i.e. tidyData.csv and tidyDataAverage.csv)
+4. Note that you should not change the location of of any project file, simply keep all the unziped directories and files as is
 
 
