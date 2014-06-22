@@ -12,3 +12,5 @@ There is only one script for this process called run_analysis.R
 ### Script output
 
 ##### Two files are produced tidyData.csv and tidyDataAverage.csv
+Check the CodeBook.md for details
+
