@@ -1,4 +1,4 @@
-## Project Scripts
+## Scripts
 
 There is only one script for this process called run_analysis.R
 
