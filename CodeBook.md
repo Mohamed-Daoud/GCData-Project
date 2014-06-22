@@ -13,7 +13,7 @@ The output data files are the following
 * tidyDataAverage.csv representing the average of all variables categorized by test and train data
 
 ### tidyData.csv
-561 Columns represeted in the features.txt file + 1 more column added by the script run_analysis.R to distinguish between test and train data
+the output file has 561 Columns represented in the features.txt file + 1 more column added by the script run_analysis.R to distinguish between test and train data
 * 1-tBodyAcc-mean()-X
 * 2-tBodyAcc-mean()-Y
 * 3-tBodyAcc-mean()-Z
@@ -31,10 +31,12 @@ The output data files are the following
 * 562-Data.Type [value of 1 for test data and 2 for train data]
 
 ### tidyDataAverage.csv
-the output has three Columns
-* 1-Variable [showing measurement type which is averaged]
+The output file has three Columns
+* 1-Variable [showing measurement type to be averaged]
 * 2-TestDataAverage [showing the average of the measurement for all the test data]
 * 3-TrainDataAverage [showing the average  of the measurement for all the train data]
+
+The file has been structured in this manner to allow for test and train data comparison and in case an average for both is required, it would be fairly easy to be produced
 
 ### How to reproduce the output
 * 1. Unzip the project file
