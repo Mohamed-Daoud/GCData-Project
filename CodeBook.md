@@ -9,11 +9,11 @@ The input data is collected from three main sources of the project files
 
 ## Output data files
 The output data files are the following
-* tidyData.csv representing the merged data from the three data sources above
+* tidyData.csv representing the merged data from the three data sources above, then reduced to only those having the mean and standard deviation values
 * tidyDataAverage.csv representing the average of all variables categorized by test and train data
 
 ### tidyData.csv
-the output file has 561 Columns represented in the features.txt file + 1 more column added by the script run_analysis.R to distinguish between test and train data
+the output file has 79 Columns representing only those variables holding the mean and standard deviation values + 1 more column added by the script run_analysis.R to distinguish between test and train data
 * 1-tBodyAcc-mean()-X
 * 2-tBodyAcc-mean()-Y
 * 3-tBodyAcc-mean()-Z
@@ -22,13 +22,10 @@ the output file has 561 Columns represented in the features.txt file + 1 more co
 * 6-tBodyAcc-std()-Z
 * 7-tBodyAcc-mad()-X
 * .................................
-* 556-angle(tBodyAccJerkMean),gravityMean)
-* 557-angle(tBodyGyroMean,gravityMean)
-* 558-angle(tBodyGyroJerkMean,gravityMean)
-* 559-angle(X,gravityMean)
-* 560-angle(Y,gravityMean)
-* 561-angle(Z,gravityMean)
-* 562-Data.Type [value of 1 for test data and 2 for train data]
+* 77-fBodyBodyGyroJerkMag-mean()
+* 78-fBodyBodyGyroJerkMag-std()
+* 79-fBodyBodyGyroJerkMag-meanFreq()
+* 80-Data.Type [value of 1 for test data and 2 for train data]
 
 ### tidyDataAverage.csv
 The output file has three Columns
