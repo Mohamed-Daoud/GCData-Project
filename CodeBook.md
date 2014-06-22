@@ -13,7 +13,7 @@ The output data files are the following
 * tidyDataAverage.csv representing the average of all variables categorized by test and train data
 
 ### tidyData.csv
-561 Columns represeted in the features.txt file + 1 more column to distinguish between test and train data
+561 Columns represeted in the features.txt file + 1 more column added by the script run_analysis.R to distinguish between test and train data
 * 1-tBodyAcc-mean()-X
 * 2-tBodyAcc-mean()-Y
 * 3-tBodyAcc-mean()-Z
