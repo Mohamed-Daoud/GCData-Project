@@ -9,6 +9,9 @@ There is only one script for this process called run_analysis.R
 
 ###### Note that you should not change the location of of any project file, simply keep all the unziped directories and files as is
 
+### How the script works
+
+
 ### Script output
 
 ##### Two files are produced tidyData.csv and tidyDataAverage.csv
