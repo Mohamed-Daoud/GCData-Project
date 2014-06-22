@@ -5,6 +5,7 @@ The input data is collected from three main sources of the project files
 * X_test.txt having test data holding all the reading types (e.g. the mean & standard deviatiouns) for various signals (e.g. tBodyAcc) the file holds no header
 * X_train.txt having training data holding all the reading types for various signals and the file holds no header
 * features.txt having all the reading names with all combinations of reading types/Signals corresponding to columns names in X_test and X_train files (i.e. the header of those files)
+
 ==========================================================================
 
 ### Output data files
